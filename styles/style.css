@@ -1,4 +1,10 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+@import url(./header/header.css);
+@import url(./header/__theme-menu-list/header__theme-menu-list.css);
+@import url(./decorated-zone/decorated-zone.css);
+@import url(./header/__title/header__title.css);
+@import url(./header/__subtitle/header__subtitle.css);
+@import url(./header/__theme-menu/header__theme-menu.css);
+@import url(./header/__theme-menu-button/header__theme-menu-button.css);
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */

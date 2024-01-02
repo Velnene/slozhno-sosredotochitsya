@@ -1,0 +1,16 @@
+.decorated-zone {
+  background-image: url(../../images/cover-image-light.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 315px 1fr;
+  grid-template-rows: 299px 244px 185px;
+  grid-template-areas:
+    '. nav .'
+    'title title title'
+    '. subtitle subtitle';
+  column-gap: 10px;
+  align-items: start;
+  padding: 20px;
+}

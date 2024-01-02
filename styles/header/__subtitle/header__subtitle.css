@@ -1,0 +1,11 @@
+.header__subtitle {
+  color: #353430;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
+  width: 491px;
+  background: #FF8DCB;
+  grid-area: subtitle;
+  justify-self: end;
+}

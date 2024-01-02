@@ -1,0 +1,10 @@
+.header__title {
+  color: #FFC2E6;
+  text-shadow: 4px 4px 0px #FF0070;
+  font-size: 157px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+  margin-inline-start: -20px;
+  grid-area: title;
+}
