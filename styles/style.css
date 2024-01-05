@@ -30,6 +30,9 @@
 @import url(./section/__images/_sunset/section__images_sunset.css);
 @import url(./section/__images/_tape/section__images_tape.css);
 
+@import url(./footer/footer.css);
+
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-color: #FFF1F7;
+  padding: 0 20px;
 }
