@@ -1,0 +1,6 @@
+.first-section {
+  grid-template-areas:
+    'title text text';
+  grid-template-columns: 1fr 315px 1fr;
+  column-gap: 20px;
+}

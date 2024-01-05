@@ -1,0 +1,9 @@
+.second-section {
+  grid-template-areas:
+    'title . .'
+    'column-one column-two column-three';
+  grid-template-columns: 1fr 315px 1fr;
+  grid-template-rows: 50px auto;
+  column-gap: 20px;
+  row-gap: 20px;
+}

@@ -1,0 +1,16 @@
+.section__paragraph {
+  color: #353430;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px;
+}
+
+/* 
+.section__info .section__paragraph{
+  margin-block-end: 20px;
+} */
+
+.section__info div:not(:last-of-type) {
+  margin-bottom: 40px;
+}

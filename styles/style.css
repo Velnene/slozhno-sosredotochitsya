@@ -6,6 +6,22 @@
 @import url(./header/__theme-menu/header__theme-menu.css);
 @import url(./header/__theme-menu-button/header__theme-menu-button.css);
 
+
+@import url(./main/main.css);
+@import url(./section/section.css);
+@import url(./first-section/first-section.css);
+@import url(./section/__title/section__title.css);
+@import url(./section/__info/section__info.css);
+@import url(./section/__subtitle/section__subtitle.css);
+@import url(./section/__subtitle/_top/section__subtitle_top.css);
+@import url(./section/__paragraph/section__paragraph.css);
+
+@import url(./second-section/second-section.css);
+
+@import url(./section/__info/_column-one/section__info_column-one.css);
+@import url(./section/__info/_column-two/section__info_column-two.css);
+@import url(./section/__info/_column-three/section__info_column-three.css);
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
