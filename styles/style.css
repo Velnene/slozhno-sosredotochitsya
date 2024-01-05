@@ -22,6 +22,14 @@
 @import url(./section/__info/_column-two/section__info_column-two.css);
 @import url(./section/__info/_column-three/section__info_column-three.css);
 
+@import url(./section/__images/section__images.css);
+@import url(./section/__for-images/section__for-images.css);
+@import url(./section/__images/_books/section__images_books.css);
+@import url(./section/__images/_ice-cream/section__images_ice-cream.css);
+@import url(./section/__images/_street/section__images_street.css);
+@import url(./section/__images/_sunset/section__images_sunset.css);
+@import url(./section/__images/_tape/section__images_tape.css);
+
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }

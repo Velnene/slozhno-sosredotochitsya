@@ -1,0 +1,11 @@
+.section__for-images{
+  grid-template-areas: 
+  'title . .'
+  'sunset sunset ice-cream'
+  'tape books ice-cream'
+  'tape street street';
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+
+}
