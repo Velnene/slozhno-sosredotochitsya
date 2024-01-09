@@ -8,3 +8,17 @@
   margin-inline-start: -20px;
   grid-area: title;
 }
+
+@media screen and (max-width: 820px) {
+  .header__title {
+    text-shadow: 4px 4px 0px #FF8DCB;
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header__title {
+    font-size: 116px;
+    margin-inline-start: -10px;
+  }
+}

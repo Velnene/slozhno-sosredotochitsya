@@ -6,11 +6,12 @@
   line-height: 23.4px;
 }
 
-/* 
-.section__info .section__paragraph{
-  margin-block-end: 20px;
-} */
-
 .section__info div:not(:last-of-type) {
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 770px) {
+  .section__info div:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
 }

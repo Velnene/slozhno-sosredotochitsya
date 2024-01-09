@@ -4,8 +4,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px;
-  width: 491px;
+  max-width: 491px;
   background: #FF8DCB;
   grid-area: subtitle;
   justify-self: end;
+}
+
+@media screen and (max-width: 820px) {
+  .header__subtitle {
+    align-self: center;
+  }
 }

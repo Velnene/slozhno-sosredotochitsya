@@ -7,3 +7,27 @@
   column-gap: 20px;
   row-gap: 20px;
 }
+
+@media screen and (max-width: 870px) {
+  .second-section {
+    grid-template-areas:
+      'title .'
+      'column-one column-one'
+      'column-two column-two'
+      'column-three column-three';
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .second-section {
+    grid-template-areas:
+      'title title'
+      'column-one column-one'
+      'column-two column-two'
+      'column-three column-three';
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+  }
+}

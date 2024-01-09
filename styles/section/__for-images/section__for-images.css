@@ -1,11 +1,34 @@
-.section__for-images{
-  grid-template-areas: 
-  'title . .'
-  'sunset sunset ice-cream'
-  'tape books ice-cream'
-  'tape street street';
+.section__for-images {
+  grid-template-areas:
+    'subtitle-for-image . .'
+    'sunset sunset ice-cream'
+    'tape books ice-cream'
+    'tape street street';
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 20px;
   column-gap: 20px;
+}
 
+@media screen and (max-width: 770px) {
+  .section__for-images {
+    grid-template-areas:
+      'subtitle-for-image subtitle-for-image subtitle-for-image'
+      'sunset sunset ice-cream'
+      'tape books ice-cream'
+      'tape street street';
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section__for-images {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'subtitle-for-image'
+      'sunset'
+      'ice-cream'
+      'tape'
+      'books'
+      'street';
+    row-gap: 10px;
+  }
 }

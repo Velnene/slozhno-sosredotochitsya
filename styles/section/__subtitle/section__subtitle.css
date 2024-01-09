@@ -6,4 +6,12 @@
   line-height: 23.4px;
   background-color: #FF8DCB;
   margin-block-end: 10px;
+  grid-area: subtitle-for-image;
+}
+
+
+@media screen and (max-width: 770px) {
+  .section__subtitle{
+
+  }
 }

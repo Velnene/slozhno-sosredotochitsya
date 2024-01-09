@@ -12,5 +12,26 @@
     '. subtitle subtitle';
   column-gap: 10px;
   align-items: start;
-  padding: 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .decorated-zone {
+    grid-template-columns: 1fr 1fr 364px;
+    grid-template-rows: 443px auto 442px;
+    grid-template-areas:
+      '. . nav'
+      'title title title'
+      '. . subtitle';
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .decorated-zone {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 228px auto 228px;
+    grid-template-areas:
+      '. . nav'
+      'title title title'
+      'subtitle subtitle subtitle';
+  }
 }
